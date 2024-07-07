@@ -1,10 +1,3 @@
-import sys
-A = int(sys.stdin.readline())
-B = sys.stdin.readline()
-C = int(sys.stdin.readline())
-
-s = len(B)-1
-B = int(B)
-
-print(A+B-C)
-print(A*(10**s) + B - C)
+[a,b,c]=([int(input()) for i in range(3)])
+print(a+b-c)
+print(int(str(a)+str(b))-c)
